@@ -1,7 +1,6 @@
 from sklearn.naive_bayes import GaussianNB
 import sys
 import re
-import time
 
 def inputTokenize(text):
     REGEX = re.compile(r" \s*")
@@ -34,9 +33,6 @@ for line in lines_in_file:
                 word_dictionary[word] = idx
                 idx = idx + 1
         X.append(" ".join(line[1:]))
-
-X = X[0:1000]
-Y = Y[0:1000]
 
 for i in range(0, len(X)):
 
