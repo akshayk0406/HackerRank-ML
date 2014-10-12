@@ -1,1 +1,4 @@
-README for Twitter Sentimenr Analysis
+TwitterSentimentAnalysis
+========================
+
+UW Assignment regarding Analysing Twitter Feeds
